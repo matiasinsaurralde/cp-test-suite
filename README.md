@@ -16,7 +16,7 @@ My `tyk.conf` has the following settings:
 ```
 "coprocess_options": {
   "enable_coprocess": true,
-  "coprocess_grpc_server": ""
+  "coprocess_grpc_server": "tcp://127.0.0.1:5555"
 },
 "bundle_base_url": "http://127.0.0.1/dev/",
 "enable_bundle_downloader": true,
