@@ -1,0 +1,15 @@
+{
+  "file_list": [
+    "mymiddleware.py"
+  ],
+  "custom_middleware": {
+    "pre": [
+      {
+        "name": "MyPreMiddleware"
+      }
+    ],
+    "driver": "python"
+  },
+  "checksum": "",
+  "signature": ""
+}
